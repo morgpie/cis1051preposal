@@ -1,10 +1,3 @@
-class Car 
-{
-  string color = "red";
-
-  static void Main(string[] args)
-  {
-    Car myObj = new Car();
-    Console.WriteLine(myObj.color);
-  }
-}
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);
